@@ -1,0 +1,29 @@
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: $white;
+  border: none;
+  padding: $primary-size 0;
+  text-transform: uppercase;
+  border-radius: $third-size;
+}
+
+.default {
+  background-color: $maya-blue;
+}
+
+.error {
+  background-color: $froly;
+}
+
+.info {
+  background-color: $lilac-bush;
+}
+
+.success {
+  background-color: $emerald;
+}
+
+.warning {
+  background-color: $coral;
+}
