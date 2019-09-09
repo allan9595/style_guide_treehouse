@@ -1,7 +1,7 @@
 # Web_Style_Guide_Techdegree
 **Web_Style__Guide_techdegree** 
 
-This is a web style guid build with scss.
+This web style guide build with scss.
 
 The media-query breakpoint is 768px.
 
