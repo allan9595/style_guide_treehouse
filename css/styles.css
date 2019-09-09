@@ -479,27 +479,32 @@ a {
 .default {
   background-color: #51ddfc; }
   .default:hover {
-    background-color: #9cecfd; }
+    background-color: #9cecfd;
+    transition: 1s; }
 
 .error {
   background-color: #e4757a; }
   .error:hover {
-    background-color: #f1b5b8; }
+    background-color: #f1b5b8;
+    transition: 1s; }
 
 .info {
   background-color: #927bc1; }
   .info:hover {
-    background-color: #bdafd9; }
+    background-color: #bdafd9;
+    transition: 1s; }
 
 .success {
   background-color: #63cc82; }
   .success:hover {
-    background-color: #9ddfb0; }
+    background-color: #9ddfb0;
+    transition: 1s; }
 
 .warning {
   background-color: #fd7856; }
   .warning:hover {
-    background-color: #feb4a2; }
+    background-color: #feb4a2;
+    transition: 1s; }
 
 @media (min-width: 768px) {
   .btn {

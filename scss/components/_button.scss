@@ -1,3 +1,5 @@
+//control button hover effect
+
 @function btn-hover($background-color){
   $background-color: lighten($background-color, 15%);
 
@@ -19,6 +21,7 @@
   background-color: $maya-blue;
   &:hover{
     background-color: btn-hover($maya-blue);
+    transition: 1s;
   }
 }
 
@@ -26,6 +29,7 @@
   background-color: $froly;
   &:hover{
     background-color: btn-hover($froly);
+    transition: 1s;
   }
 }
 
@@ -33,6 +37,7 @@
   background-color: $lilac-bush;
   &:hover{
     background-color: btn-hover($lilac-bush);
+    transition: 1s;
   }
 }
 
@@ -40,6 +45,7 @@
   background-color: $emerald;
   &:hover{
     background-color: btn-hover($emerald);
+    transition: 1s;
   }
 }
 
@@ -47,6 +53,7 @@
   background-color: $coral;
   &:hover{
     background-color: btn-hover($coral);
+    transition: 1s;
   }
 }
 
