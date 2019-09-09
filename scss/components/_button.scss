@@ -1,3 +1,9 @@
+@function btn-hover($background-color){
+  $background-color: lighten($background-color, 15%);
+
+  @return $background-color;
+}
+
 .btn {
   margin-top: 15px;
   width: 100%;
@@ -8,24 +14,40 @@
   border-radius: $third-size;
 }
 
+
 .default {
   background-color: $maya-blue;
+  &:hover{
+    background-color: btn-hover($maya-blue);
+  }
 }
 
 .error {
   background-color: $froly;
+  &:hover{
+    background-color: btn-hover($froly);
+  }
 }
 
 .info {
   background-color: $lilac-bush;
+  &:hover{
+    background-color: btn-hover($lilac-bush);
+  }
 }
 
 .success {
   background-color: $emerald;
+  &:hover{
+    background-color: btn-hover($emerald);
+  }
 }
 
 .warning {
   background-color: $coral;
+  &:hover{
+    background-color: btn-hover($coral);
+  }
 }
 
 @include media-query($tablet-desktop-view){
