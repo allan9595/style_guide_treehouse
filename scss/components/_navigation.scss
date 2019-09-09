@@ -20,3 +20,15 @@
   color: $white;
   background-color: $turquoise;
 }
+
+@include media-query($tablet-desktop-view){
+  .nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .nav-link {
+    flex-basis: 100px;
+  }
+}

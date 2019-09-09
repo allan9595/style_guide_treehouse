@@ -27,3 +27,13 @@
 .warning {
   background-color: $coral;
 }
+
+@include media-query($tablet-desktop-view){
+  .btn {
+    padding: $primary-size 30px;
+  }
+
+  .btn + .btn {
+    margin-left: $primary-size;
+  }
+}
